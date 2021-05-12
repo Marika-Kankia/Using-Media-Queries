@@ -1,0 +1,155 @@
+/* * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1640px; 
+    width: 100%;
+    margin: 0 auto;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+	align-items:center;
+    
+     
+}
+.flex li a{
+    font-size: 20px;
+    line-height: 40px;
+    color: #7F7F7F;
+    text-decoration: none;
+    font-family: 'Archy EDT-Thin';
+    margin:40px;
+}
+.navbar{
+    margin-left:500px;
+}
+
+.image{
+    width: 100%;
+    margin-top: 20px;
+}
+.box {
+    width: 483px;
+    height: 563px;
+    margin: 10px;
+    box-shadow: 0px 1px 2px;
+
+
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color:#707070;
+    font-family: 'Archy EDT-Thin';
+}
+h3{
+    font-size: 30px;
+    color:#707070;
+    font-family: 'Archy EDT-Thin';
+    margin-top: 20px;
+}
+p{
+    font-size: 18px;
+    color:#707070;
+    font-family: 'Pierre Dingbats';
+    margin-top: 30px;
+}
+.box a{
+    padding:440px;
+  
+}
+h4{
+    font-size: 30px;
+    color:#707070;
+    font-family: 'Archy EDT-Thin';
+    font-weight: 100;;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    margin:60px 0;
+}
+h5{
+    
+    font-size: 20px;
+    font-family:'Archy EDT';
+    color:#F2F2F2;
+    font-family: 'Archy EDT-Thin';
+    margin:5px;
+   
+
+
+}
+.footer{
+    background-color:#2E2E2E;
+    margin-top: 50px;
+   
+    
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+    flex-wrap: wrap;
+  
+   
+} 
+.contact p:nth-child(2){
+font-size: 13px;
+font-family:'Archy EDT-Thin';
+color:#F2F2F2;
+margin:5px;
+}
+.contact p:nth-child(3){
+    font-size: 13px;
+    font-family:'Archy EDT-Thin';
+    color:#F2F2F2;
+    margin:5px;
+}
+.address p:nth-child(1){
+    font-size: 19px;
+    color:#FFFFFF;
+    font-family:'Archy EDT-Thin';
+    margin:5px;
+}
+.address p:nth-child(2){
+    font-size:13px;
+    color:#FFFFFF;
+    font-family:'Archy EDT-Thin';
+    margin:5px;
+}
+.social a{
+    padding:10px;
+}
+
+
+@media (max-width:102px){
+.navbar{
+    display: none;
+}
+.logo{
+    display: inline-block;
+}
+
+}
+
+@media(max-width:480px){
+
+
+}
+    
