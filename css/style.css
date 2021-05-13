@@ -1,9 +1,9 @@
-/* * {
+* {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-} */
-ul {
+}
+ ul {
     list-style: none;
 }
 .container {
@@ -37,10 +37,62 @@ ul {
     margin-left:500px;
 }
 
-.image{
-    width: 100%;
-    margin-top: 20px;
+
+/* .container {
+	max-width: 1640px;
+	width: 100%;
+	margin: 0 auto;
 }
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.header-flex{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.flex li a{
+    font-size: 20px;
+    line-height: 40px;
+    color: #7F7F7F;
+    text-decoration: none;
+    font-family: 'Archy EDT-Thin';
+    margin:40px;
+}
+.header {
+	padding: 52px 142px;
+	font-size: 20px;
+	font-family: 'ArchyEDT-Thin';
+	line-height: 27px;
+	letter-spacing: 1px;
+	flex-wrap: wrap;
+}
+.header-div{
+    cursor: pointer;
+	margin-right: 0;
+}
+.navbar a{
+	margin-right: 40px;
+} */
+.logo-1 {
+    cursor: pointer;
+	margin-right: 0;
+}
+.image{
+    height: 613px;
+	width: 100%;
+	padding: 52px 142px;
+	background-image: url(../images/card-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+
 .box-2 {
     width: 483px;
     height: 563px;
@@ -133,7 +185,7 @@ h5{
 
 }
 
-.footer{
+footer{
     background-color:#2E2E2E;
     margin-top: 50px;
     height: 207px;
@@ -176,7 +228,42 @@ margin:5px;
 .social a{
     padding:10px;
 }
-
+/* footer {
+	padding: 40px 0;
+	background-color: #2E2E2E;
+}
+.contact{
+    font-family: 'ArchyEDT-Thin';
+	letter-spacing: 1px;
+}
+.address{
+    font-family: 'ArchyEDT-Thin';
+	letter-spacing: 1px;
+}
+h5{
+    font-size: 20px;
+	line-height: 27px;
+    color:#F2F2F2;
+}
+.footer-flex{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.address p{
+    font-size: 13px;
+	line-height: 17px;
+    color:#F2F2F2;
+}
+.contact p{
+    font-size: 13px;
+	line-height: 17px;
+    color:#F2F2F2;
+}
+.social a:first-child img {
+	margin-right: 30px;
+} */
 
 @media (max-width:360px){
 .logo-2{
@@ -187,12 +274,16 @@ margin:5px;
 }
 .footer-flex{
     width: 100%;
+   
 }
 .header-flex{
     display: flex;
 }
 .box-3{
     display: none;
+}
+header{
+    padding:30px;
 }
 
 }
