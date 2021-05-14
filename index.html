@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css" />
@@ -10,11 +9,10 @@
     <title>Task-9</title>
   </head>
   <body>
-    <header>
-        <div class="container header-flex">
-            <a href="#">
-                <img src="images/logo-1.svg" alt="logo">
-            </a>
+    <header class="header">
+        <div class="container flex">
+               <img src="images/logo-1.svg" alt="logo">
+           <div class="header-div flex">
              <nav class="navbar">
                 <ul class="flex">
                 
@@ -32,91 +30,114 @@
                   </li>
                 </ul>
              </nav>
-            <div class="logo">
-                  <a href="#">
-                      <img src="images/search-1.svg" alt="">
+                  <a href="index.html">
+                      <img class="search-1" src="images/search-1.svg" alt="search">
                   </a>
-            </div>
+           </div>
         </div>
     </header>
-    <section>
+      <div class="container">
+        <div class="banner"></div>
+      </div>
+
+     <section class="popular-articles">
          <div class="container">
-             <img class="image" src="images/card-1.jpg" alt="card">
-         </div>
-     </section>
-     <section>
-         <div class="container">
-            <h2>პოპულარული სტატიები</h2>
-                 <div class="flex">
+            <h2 class="popular-1">პოპულარული სტატიები</h2>
+                 <div class=" articles flex">
                      <div class="box-1">
+                         <a href="#">
                         <img src="images/neonbrand-3.jpg" alt="neo">
-                        <h3>სტატიის სათაური</h3>
-                        <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი დაეთმობა
-                           ამ სტატიის მოკლე აღწერას </p>
+                          </a>
+                          <div class="article-title">
+                              <a href="#">
+                                <h2>სტატიის სათაური</h2>
+                                </a>
+                                <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი დაეთმობა
+                                 ამ სტატიის მოკლე აღწერას </p>
 
-                        <a href="#"> more </a>
-
+                                <a href="#"> more </a>
+                            </div>
                       </div>
-                      <div class="box-2">
+                      <div class="box-1">
+                          <a href="#">
                         <img src="images/neonbrand-3.jpg" alt="neobrand">
-                        <h3>სტატიის სათაური</h3>
+                        </a>
+                        <div class="article-title">
+                        <h2>სტატიის სათაური</h2>
                         <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
                         დაეთმობა ამ სტატიის მოკლე აღწერას </p>
                         <a href="#"> more </a>
+                        </div>
                       </div>
-                      <div class="box-3">
+                      <div class="box-1">
+                          <a href="#">
                         <img src="images/neonbrand-1.jpg" alt="neobrand1">
-                        <h3>სტატიის სათაური</h3>
-                        <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
+                          </a>
+                        <div class="article-title">
+                         <h2>სტატიის სათაური</h2>
+                         <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
                         დაეთმობა ამ სტატიის მოკლე აღწერას </p>
                         <a href="#"> more </a>
-                      </div>
+                       </div>
+                     </div>
                  </div>
-          </div>
-          <div class="load">
-              <h4>Load more</h4>
-          </div>
+           </div>
+          <a class="load" href="#">
+              <span>Load more</span>
+          </a>
      </section>
-     <section>
+     <section class="last-added">
         <div class="container">
-           <h2>ბოლოს დამატებული</h2>
-                <div class="flex">
+           <h2 class="popular-1">ბოლოს დამატებული</h2>
+                <div class="articles flex">
                     <div class="box-1">
+                        <a href="#">
                        <img src="images/andrew-spencer.jpg" alt="spencer">
-                       <h3>სტატიის სათაური</h3>
-                       <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი დაეთმობა
-                          ამ სტატიის მოკლე აღწერას </p>
-                       <a href="#"> more </a>
+                         </a>
+                        <div class="article-title">
+                          <h2>სტატიის სათაური</h2>
+                          <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი დაეთმობა
+                            ამ სტატიის მოკლე აღწერას </p>
+                           <a href="#"> more </a>
+                           </div>
                      </div>
-                     <div class="box-2">
+                     <div class="box-1">
+                         <a href="#">
                        <img src="images/gonzalo-poblete.jpg" alt="gonzalo">
-                       <h3>სტატიის სათაური</h3>
-                       <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
-                       დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-                       <a href="#"> more </a>
+                         </a>
+                      <div class="article-title">
+                         <h2>სტატიის სათაური</h2>
+                         <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
+                         დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                         <a href="#"> more </a>
                      </div>
-                     <div class="box-3">
-                       <img src="images/bruce-dixon.jpg" alt="dixon">
-                       <h3>სტატიის სათაური</h3>
-                       <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
-                       დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-                       <a href="#"> more </a>
-                     </div>
-                </div>
-         </div>
-         </section>
-         <footer class="footer">
-            <div class="container footer-flex">
+                    </div>
+                     <div class="box-1">
+                         <a href="#">
+                         <img src="images/bruce-dixon.jpg" alt="dixon">
+                         </a>
+                         <div class="article-title">
+                         <h2>სტატიის სათაური</h2>
+                         <p>ამ სტატიასაც სჭირდება აღწერა,ამიტომ ეს ველი 
+                         დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                         <a href="#"> more </a>
+                         </div>
+                    </div>
+             </div>
+          </div>
+        </section>
+        <footer>
+            <div class="container flex">
                     <a href="#">
                        <img class="logo-2" src="images/logo-2.svg" alt="logo">
                     </a>
                   <div class="contact">
-                    <h5>კონტაქტი</h5>
+                    <h2>კონტაქტი</h2>
                     <p>+995 0322 38 08 02</p>
                     <p>info@lucapolare.com</p>
                   </div>
                   <div class="address">
-                    <p>მისამართი</p>
+                    <h2>მისამართი</h2>
                     <p>მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
                   </div>
                   <div class="social">
@@ -129,5 +150,6 @@
                   </div>          
             </div>
          </footer>
-     
+        </body>
+        </html>
                 
